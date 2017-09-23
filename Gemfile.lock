@@ -3,7 +3,15 @@ GEM
   specs:
     childprocess (0.7.1)
       ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.2)
     ffi (1.9.18)
+    method_source (0.8.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
+    pry (0.11.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
     rubyzip (1.2.1)
     selenium-webdriver (3.5.2)
       childprocess (~> 0.5)
@@ -14,6 +22,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  nokogiri
+  pry
   selenium-webdriver (~> 3.5, >= 3.5.2)
   test-unit
 

@@ -11,7 +11,7 @@ class TestBase < Test::Unit::TestCase
 
   def teardown
     p "Exit!"
-    Hooks.driver_close
+    #Hooks.driver_close
   end
   
 end
