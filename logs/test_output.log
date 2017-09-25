@@ -1,0 +1,91 @@
+Open browser
+Clear browser cookies
+Navigate to Upwork
+Check guest page is open
+Fill in search field: tester
+Click on magnifying glass
+Select Freelancers in search dropwown menu
+Submit search
+Check search results page is open
+Wait for location search suggestion popup to appear
+Click on button Search Anywhere
+Check whether freelancer attributes contain keyword 'tester' or not
+Freelancer Dwindy S.
+Title contains tester: true
+Description contains: tester: false
+Skills contain tester: false
+
+
+Freelancer Alexey A.
+Title contains tester: false
+Description contains: tester: false
+Skills contain tester: false
+No matches!
+
+
+Freelancer Lawrence L.
+Title contains tester: true
+Description contains: tester: false
+Skills contain tester: false
+
+
+Freelancer Uros K.
+Title contains tester: false
+Description contains: tester: false
+Skills contain tester: false
+No matches!
+
+
+Freelancer Sonia B.
+Title contains tester: true
+Description contains: tester: false
+Skills contain tester: false
+
+
+Freelancer Reha E.
+Title contains tester: false
+Description contains: tester: false
+Skills contain tester: false
+No matches!
+
+
+Freelancer Karen C.
+Title contains tester: false
+Description contains: tester: true
+Skills contain tester: false
+
+
+Freelancer Antonio J.
+Title contains tester: false
+Description contains: tester: true
+Skills contain tester: false
+
+
+Freelancer Susan S.
+Title contains tester: false
+Description contains: tester: false
+Skills contain tester: false
+No matches!
+
+
+Freelancer Davor S.
+Title contains tester: false
+Description contains: tester: false
+Skills contain tester: false
+No matches!
+
+
+Open random freelancer: 1
+Check freelancer profile page is open
+Check that name value is equal to stored
+Check that title value is equal to stored
+Check that description value is equal to stored
+Check that skills value is equal to stored
+Check that at least one of attributes contain keyword: 'tester'
+Title contains tester: false
+Expand description section if 'more' link is present
+Description contains tester: true
+Expand skills section if 'more' link is present
+Skills contain tester: false
+
+
