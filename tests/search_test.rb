@@ -2,7 +2,6 @@ require './pages/guest_page'
 require './tests/test_base'
 require './models/freelancer'
 require 'yaml'
-require 'pry'
 
 class SearchTest < TestBase
 

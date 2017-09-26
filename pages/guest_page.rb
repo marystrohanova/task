@@ -17,7 +17,7 @@ class GuestPage
 
   def is_loaded?
     @logger.write('Check guest page is open')
-    @wait.until { @driver.find_element(:partial_link_text, 'Get Started') }
+    @wait.until { @driver.find_element(:partial_link_text, "Get Started") }
   end
 
   def fill_in_search_field(string)
@@ -27,7 +27,7 @@ class GuestPage
 
   def click_search_icon
     @logger.write("Click on magnifying glass")
-    @search_icon.click unless search_icon.nil?
+    search_icon.click unless search_icon.nil?
   end
 
   def select_search_option(option)

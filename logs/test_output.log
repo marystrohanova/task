@@ -16,6 +16,12 @@ Description contains: tester: false
 Skills contain tester: false
 
 
+Freelancer Lawrence L.
+Title contains tester: true
+Description contains: tester: false
+Skills contain tester: false
+
+
 Freelancer Alexey A.
 Title contains tester: false
 Description contains: tester: false
@@ -23,36 +29,25 @@ Skills contain tester: false
 No matches!
 
 
-Freelancer Lawrence L.
-Title contains tester: true
-Description contains: tester: false
-Skills contain tester: false
-
-
-Freelancer Uros K.
+Freelancer Suman S.
 Title contains tester: false
 Description contains: tester: false
 Skills contain tester: false
 No matches!
 
 
-Freelancer Sonia B.
-Title contains tester: true
-Description contains: tester: false
-Skills contain tester: false
-
-
-Freelancer Reha E.
+Freelancer Priya R.
 Title contains tester: false
 Description contains: tester: false
 Skills contain tester: false
 No matches!
 
 
-Freelancer Karen C.
+Freelancer Jennifer M.
 Title contains tester: false
-Description contains: tester: true
+Description contains: tester: false
 Skills contain tester: false
+No matches!
 
 
 Freelancer Antonio J.
@@ -61,31 +56,37 @@ Description contains: tester: true
 Skills contain tester: false
 
 
-Freelancer Susan S.
+Freelancer Oleksii A.
 Title contains tester: false
 Description contains: tester: false
 Skills contain tester: false
 No matches!
 
 
-Freelancer Davor S.
-Title contains tester: false
+Freelancer Maria R. G.
+Title contains tester: true
 Description contains: tester: false
 Skills contain tester: false
-No matches!
 
 
-Open random freelancer: 1
+Freelancer Sonia B.
+Title contains tester: true
+Description contains: tester: false
+Skills contain tester: false
+
+
+Open random freelancer: 8
 Check freelancer profile page is open
 Check that name value is equal to stored
 Check that title value is equal to stored
 Check that description value is equal to stored
 Check that skills value is equal to stored
 Check that at least one of attributes contain keyword: 'tester'
-Title contains tester: false
+Title contains tester: true
 Expand description section if 'more' link is present
-Description contains tester: true
+Description contains tester: false
 Expand skills section if 'more' link is present
 Skills contain tester: false
 
 
+Close browser

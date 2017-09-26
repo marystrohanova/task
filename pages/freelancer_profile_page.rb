@@ -10,6 +10,8 @@ class FreelancerProfilePage
   def is_loaded?
     @logger.write('Check freelancer profile page is open')
     @wait.until { @driver.find_element(:id, 'oProfilePage') }
+    # dom gets rendered twice, so putting wait as a work around 
+    sleep(6)
   end
 
   def description
@@ -65,6 +67,7 @@ class FreelancerProfilePage
   end
 
   def expand_description
+    sleep(3)
     more_link = description.find_element(:link_text, 'more')
     unless more_link.nil?
       @logger.write("Expand description section if 'more' link is present")

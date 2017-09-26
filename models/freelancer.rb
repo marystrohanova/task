@@ -1,24 +1,12 @@
 class Freelancer
-  attr_accessor :nokogiri
+  attr_accessor :name, :title, :description, :skills
 
-  def initialize(html)
-    @html = html
-    @nokogiri = Nokogiri::HTML(html)
-  end
+  def initialize(web_element)
+    @web_element = web_element
 
-  def name
-    @nokogiri.search("//h4//span").text
-  end
-
-  def title
-    @nokogiri.search("//h4[contains(@class, 'freelancer-tile-title')]").text
-  end
-
-  def description
-    @nokogiri.search("//div[@data-freelancer-description]").text
-  end
-
-  def skills
-    @nokogiri.search("//a[@data-log-label='tile_skill']").text
+    @name = @web_element.find_element(:xpath, './/h4//span').text
+    @title = @web_element.find_element(:xpath, ".//h4[contains(@class, 'freelancer-tile-title')]").text
+    @description = @web_element.find_element(:xpath, ".//div[@data-freelancer-description]").text
+    @skills = @web_element.find_element(:xpath, ".//a[@data-log-label='tile_skill']").text
   end
 end

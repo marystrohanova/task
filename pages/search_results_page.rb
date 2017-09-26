@@ -2,8 +2,6 @@ require './tests/test_base'
 require './lib/hooks'
 require './lib/steps_logger'
 require './pages/freelancer_profile_page'
-require 'nokogiri'
-require 'open-uri'
 
 class SearchResultsPage
 
@@ -38,7 +36,7 @@ class SearchResultsPage
 
     @freelancers = []
     @rows.each do |row|
-      @freelancers << Freelancer.new(row.attribute("innerHTML"))
+      @freelancers << Freelancer.new(row)
     end
   end
 
